@@ -1,4 +1,4 @@
-package com.contentgrid.observability.grafana_pyroscope_starter;
+package com.contentgrid.observability.grafana.pyroscope.starter;
 
 import static io.pyroscope.javaagent.PyroscopeAgent.start;
 
