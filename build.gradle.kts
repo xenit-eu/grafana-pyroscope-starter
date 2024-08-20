@@ -2,11 +2,12 @@ plugins {
 	`java-library`
 	`maven-publish`
 	`signing`
+	id("org.sonarqube")
 	id("io.freefair.lombok") version "8.6"
 }
 
 group = "com.contentgrid.observability"
-version = "0.0.1-SNAPSHOT"
+//version = "0.0.1-SNAPSHOT"
 
 java {
 	toolchain {
